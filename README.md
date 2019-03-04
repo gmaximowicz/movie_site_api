@@ -28,9 +28,8 @@ Persons
   * aliases: string
 * PUT /api/persons/:id - update the person with the id passed
 * DELETE /api/persons - remove the person passed in the id
-* POST /api/persons/:id/movies - add a person to a movie with a determined rol
+* POST /api/persons/:id/movies - add a person (id) to a movie with a determined rol
   * idMovie: string, id movie (not _id)
-  * idPerson: string, id person (not _id)
   * rol: string [actor|producer|director]
   
 Movies
@@ -42,6 +41,5 @@ Movies
 * PUT /api/movies/:id - update the movie with the id passed
 * DELETE /api/movies - remove the movie passed in the id
 * POST /api/movies/:id/persons - add a person to a movie with a determined rol
-  * idMovie: string, id movie (not _id)
   * idPerson: string, id person (not _id)
   * rol: string [actor|producer|director]
