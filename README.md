@@ -2,6 +2,8 @@
 
 A simple resful api for manage movies and persons
 
+url: https://gmaximowicz-movie-site-api.glitch.me/api/
+
 All the post, put and delete methods accepts data in json format
 
 The post, put and delete methods requires authentication
